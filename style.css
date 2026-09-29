@@ -1,0 +1,27 @@
+body { background-color: #FFEE8C; 
+       text-align: center; 
+	   font-family: Jester, Garamond;
+} 
+
+h1 { font-size: 60px;
+     margin-bottom: 100px;
+}
+#biscoito { width: 270px ; 
+            cursor:pointer;
+			filter:drop-shadow( 1px 5px 20px yellow);
+			  transition:transform 0.5s;
+			}
+#biscoito.clicado { transform: scale(1.1) rotate(8deg);
+}
+#biscoito:hover { transform: scale(1.10);
+                
+}
+p         { margin-bottom: 50px;    
+            font-size: 20px;
+			font-family: Garamond;
+			color: red;
+			margin-top: 30px;
+			font-weight: 300;
+			
+			
+ }
