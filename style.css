@@ -1,6 +1,13 @@
 body { background-color: #FFEE8C; 
        text-align: center; 
 	   font-family: Jester, Garamond;
+	   
+	   min-height:100vh;
+	   display: flex; 
+	   flex-direction: column;
+	   align-items:center;
+	   justify-content: center;
+	   
 } 
 
 h1 { font-size: 60px;
